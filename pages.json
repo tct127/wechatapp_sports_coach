@@ -1,14 +1,71 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
+	"pages": [
+	{
+		"path" : "pages/Home/Home",
+		"style" : 
+		{
+			
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/message/message",
+		"style" : 
+		{
+			
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/movement/movement",
+		"style" : 
+		{
+			
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/my/my",
+		"style" : 
+		{
+			
+			"enablePullDownRefresh" : false
 		}
 	}],
+	"tabBar": {"list": 
+	[{
+		
+		"pagePath": "pages/Home/Home",
+		"text": "首页",
+		"iconPath": "static/tabTar/home.png",
+		"selectedIconPath": "static/tabTar/home-a.png"
+		},
+		{
+		"pagePath": "pages/message/message",
+		"text": "消息",
+		"iconPath": "static/tabTar/message.png",
+		"selectedIconPath": "static/tabTar/message-a.png"
+		},
+		{
+		"pagePath": "pages/movement/movement",
+		"text": "运动",
+		"iconPath": "static/tabTar/movement.png",
+		"selectedIconPath": "static/tabTar/movement-a.png"
+		},
+		{
+		"pagePath": "pages/my/my",
+		"text": "我的",
+		"iconPath": "static/tabTar/my.png",
+		"selectedIconPath": "static/tabTar/my-a.png"
+		}
+		
+	]
+	
+	},
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "智能运动教练",
+		"navigationBarBackgroundColor": "#36B486",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
